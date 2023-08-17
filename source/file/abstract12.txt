@@ -1,0 +1,5 @@
+HelpDesk Management System built using Java, Servlet, and MySQL is a project made with the intention to help individuals raise a complaint regarding a ticket issued to them. It uses the MVC architecture design and Servlet can manage the request and response made. 
+
+Abstract: You face an issue, you raise a complaint, and a ticket ID is generated which can be used as a reference to resolve the issue. This application can be used in society, schools, organizations, and even in public places where people facing any kind of issues can register a complaint using the application. As soon you raise a complaint, a notification goes to the admin who verifies it and then reverts back to you after rectifying the issue. It includes features like Track, Issue, Ticket ID, Help Desk, Network, and Issues. It contains an admin and user module.
+
+Technologies Required: Java, J2EE, HTML, JavaScript, MySQL database, Tomcat Server, JDBC, and Servlet.
